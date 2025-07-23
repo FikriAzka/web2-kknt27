@@ -1,6 +1,20 @@
 import Link from "next/link";
 import Image from "next/image";
-import { Facebook, Twitter, Instagram, Linkedin } from "lucide-react";
+import { Instagram } from "lucide-react";
+import { TiktokIcon } from "@/components/TiktokIcon";
+
+const socialLinks = [
+  {
+    name: "Instagram",
+    href: "https://instagram.com/kknt_poslitkestembalang",
+    Icon: Instagram,
+  },
+  {
+    name: "TikTok",
+    href: "https://www.tiktok.com/@kknt_poslitkestembalang?_t=ZS-8yGaEStgCue&_r=1",
+    Icon: TiktokIcon,
+  },
+];
 
 export default function Footer() {
   return (
@@ -22,7 +36,7 @@ export default function Footer() {
           </div>
           <p className=" leading-relaxed">
             Program pengabdian masyarakat untuk pencegahan stunting dan edukasi
-            kesehatan di Tembalang.
+            kesehatan melalui pembentukan poslitkes di Tembalang.
           </p>
         </div>
 
@@ -50,41 +64,27 @@ export default function Footer() {
         </div>
 
         {/* Kontak */}
-        <div>
-          <h4 className=" font-semibold text-base mb-4">Kontak</h4>
-          <ul className="space-y-2 ">
-            <li>
-              Email:{" "}
-              <a
-                href="mailto:kkn@poslitkes.id"
-                className="text-blue-600 hover:underline"
-              >
-                kkn@poslitkes.id
-              </a>
-            </li>
-            <li>
-              Telp:{" "}
-              <span className="text-blue-600 font-medium">
-                +62 812-3456-7890
-              </span>
-            </li>
-            <li>Alamat: Tembalang, Semarang</li>
-          </ul>
-        </div>
 
         {/* Sosial Media */}
         <div>
-          <h4 className=" font-semibold text-base mb-4">Ikuti Kami</h4>
+          <h4 className="font-semibold text-base mb-4">Ikuti Kami</h4>
           <div className="flex gap-4">
-            {[Facebook, Twitter, Instagram, Linkedin].map((Icon, idx) => (
-              <Link key={idx} href="#" className="group">
+            {socialLinks.map(({ Icon, href, name }, idx) => (
+              <Link
+                key={idx}
+                href={href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={name}
+                className="group"
+              >
                 <div className="p-2 rounded-full bg-gray-100 hover:bg-blue-600 transition">
                   <Icon className="h-5 w-5 text-gray-600 group-hover:text-white transition" />
                 </div>
               </Link>
             ))}
           </div>
-          <p className="mt-6 text-xs ">
+          <p className="mt-6 text-xs">
             © {new Date().getFullYear()} KKN Poslitkes
           </p>
         </div>

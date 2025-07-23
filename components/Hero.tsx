@@ -17,7 +17,7 @@ export default function Hero({ title, subtitle, image }: HeroProps) {
           alt="Hero Background"
           fill
           priority
-          className="object-cover object-center z-0"
+          className="object-cover object-center"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/70 to-transparent z-10" />
 
