@@ -17,23 +17,23 @@ export type GalleryItemType = {
 export const galleryData: GalleryItemType[] = [
   {
     id: 1,
-    image: "/poslitkes.jpeg",
-    orientation: "landscape",
+    image: "/lele.jpeg",
+    orientation: "portrait-tall",
     tanggal: "15 Juli 2025",
     lokasi: "RT 4. RW 1",
     kelompok: 1,
   },
   {
     id: 2,
-    image: "/21_6_25_Pelaksanaan poslitkes di RT 4 RW 2_Kelompok 2.jpeg",
-    orientation: "portrait",
+    image: "/garas_lele.jpeg",
+    orientation: "portrait-wide",
     tanggal: "21 Juni 2025",
     lokasi: "RT 4, RW 2",
     kelompok: 2,
   },
   {
     id: 3,
-    image: "/6_7_25 Pelaksanaan Poslitkes RT 6 RW 4 - Kel 4.jpg",
+    image: "/pian_lele.jpeg",
     orientation: "square",
     tanggal: "6 Juli 2025",
     lokasi: "RT 6, RW 4",
@@ -41,7 +41,7 @@ export const galleryData: GalleryItemType[] = [
   },
   {
     id: 4,
-    image: "/27_06_2025_Pelaksanaan Poslitkes RT 4 RW 8_Kelompok 6.jpg",
+    image: "/demo_baso.jpeg",
     orientation: "landscape-wide",
     tanggal: "27 Juni 2025",
     lokasi: "RT 4, RW 8",
@@ -50,7 +50,7 @@ export const galleryData: GalleryItemType[] = [
   {
     id: 5,
     image:
-      "/05_07_25_Mengikuti kegiatan PKK dan Pelaksaan kegiatan POSLITKES Lansia_Kelompok 3.jpg",
+      "/pupuk.jpeg",
     orientation: "landscape",
     tanggal: "5 Juli 2025",
     lokasi: "RT 4, RW 8",

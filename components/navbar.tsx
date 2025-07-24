@@ -31,17 +31,17 @@ export function Navbar() {
           <Link href="/" className="hover:text-blue-600 font-medium">
             Beranda
           </Link>
-          <Link href="/poslitkes" className="hover:text-blue-600 font-medium">
-            Poslitkes
+          <Link href="/budikdamber" className="hover:text-blue-600 font-medium">
+            Budikdamber
           </Link>
-          <Link
-            href="/antropometri"
-            className="hover:text-blue-600 font-medium"
-          >
-            Antropometri
+          <Link href="/hidroponik" className="hover:text-blue-600 font-medium">
+            Hidroponik
           </Link>
-          <Link href="/stunting" className="hover:text-blue-600 font-medium">
-            Stunting
+          <Link href="/potensiumkm" className="hover:text-blue-600 font-medium">
+            Potensi UMKM
+          </Link>
+          <Link href="/olahanlele" className="hover:text-blue-600 font-medium">
+            Olahan Lele
           </Link>
           <Link href="/dokumentasi" className="hover:text-blue-600 font-medium">
             Dokumentasi
@@ -74,9 +74,10 @@ export function Navbar() {
                 <nav className="flex flex-col divide-y divide-gray-300 text-center text-xl font-semibold text-gray-800">
                   {[
                     { href: "/", label: "Beranda" },
-                    { href: "/poslitkes", label: "Poslitkes" },
-                    { href: "/antropometri", label: "Antropometri" },
-                    { href: "/stunting", label: "Stunting" },
+                    { href: "/budikdamber", label: "Budikdamber" },
+                    { href: "/hidroponik", label: "hidroponik" },
+                    { href: "/potensiumkm", label: "Potensi UMKM" },
+                    { href: "/olahanlele", label: "Olahan Lele" },
                     { href: "/dokumentasi", label: "Dokumentasi" },
                   ].map((item) => (
                     <Link

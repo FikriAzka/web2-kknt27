@@ -46,9 +46,10 @@ export default function Footer() {
           <ul className="space-y-2">
             {[
               { href: "/", label: "Beranda" },
-              { href: "/poslitkes", label: "Poslitkes" },
-              { href: "/antropometri", label: "Antropometri" },
-              { href: "/stunting", label: "Stunting" },
+              { href: "/budikdamber", label: "Budikdamber" },
+              { href: "/hidroponik", label: "Hidroponik" },
+              { href: "/potensiumkm", label: "Potensi UMKM" },
+              { href: "/olahanlele", label: "Olahan Lele" },
               { href: "/dokumentasi", label: "Dokumentasi" },
             ].map((item) => (
               <li key={item.href}>

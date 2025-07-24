@@ -147,7 +147,7 @@ const MasonryGallery = () => {
     <div className="min-h-screen bg-gray-50">
       {/* Header */}
       <Hero
-        title="Gallery Dokumentasi Kegiatan Poslitkes"
+        title="Gallery Dokumentasi Kegiatan Budikdamber dan Pengolahan Lele"
         image="/penerjunan_kkn.jpg"
       />
 
