@@ -4,8 +4,35 @@ import TabButton from "@/components/TabButton";
 import Hero from "@/components/Hero";
 import { ChefHat, Fish, Heart, Users, Clock, Utensils } from "lucide-react";
 
+// Tipe untuk satu resep
+type Recipe = {
+  name: string;
+  ingredients: string[];
+  spices?: string[];
+  instructions: string[];
+  nutrition?: string[];
+};
 
-const NutritionCard = ({ title, benefits }) => (
+// Tipe untuk manfaat gizi
+type NutritionInfo = {
+  name: string;
+  benefits: string[];
+};
+
+// Tipe gabungan untuk tab
+type TabKey =
+  | "bakso"
+  | "nugget"
+  | "sempol"
+  | "siomay"
+  | "otakotak"
+  | "tahubakso"
+  | "manfaat";
+
+const NutritionCard: React.FC<{ title: string; benefits: string[] }> = ({
+  title,
+  benefits,
+}) => (
   <div className="bg-green-50 border-l-4 border-green-500 p-6 rounded-lg">
     <h4 className="font-semibold text-green-800 mb-3 flex items-center">
       <Heart className="mr-2" size={20} />
@@ -22,7 +49,7 @@ const NutritionCard = ({ title, benefits }) => (
   </div>
 );
 
-const RecipeCard = ({ recipe }) => (
+const RecipeCard: React.FC<{ recipe: Recipe }> = ({ recipe }) => (
   <div className="bg-white rounded-xl shadow-lg overflow-hidden hover:shadow-xl transition-shadow duration-300 max-w-4xl mx-auto">
     <div className="bg-gradient-to-r from-orange-400 to-red-400 p-6 text-white">
       <h3 className="text-3xl font-bold flex items-center justify-center">
