@@ -35,8 +35,8 @@ export default function Footer() {
             </span>
           </div>
           <p className=" leading-relaxed">
-            Program pengabdian masyarakat untuk pencegahan stunting dan edukasi
-            kesehatan melalui pembentukan poslitkes di Tembalang.
+            Menghadirkan inovasi kuliner ikan lele yang sehat, lezat, dan
+            bergizi untuk masyarakat
           </p>
         </div>
 
@@ -64,9 +64,6 @@ export default function Footer() {
           </ul>
         </div>
 
-        {/* Kontak */}
-
-        {/* Sosial Media */}
         <div>
           <h4 className="font-semibold text-base mb-4">Ikuti Kami</h4>
           <div className="flex gap-4">
@@ -85,9 +82,7 @@ export default function Footer() {
               </Link>
             ))}
           </div>
-          <p className="mt-6 text-xs">
-            © {new Date().getFullYear()} KKN Poslitkes
-          </p>
+          <p className="mt-6 text-xs">© {new Date().getFullYear()} KKNT 27</p>
         </div>
       </div>
     </footer>

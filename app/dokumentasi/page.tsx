@@ -1,4 +1,3 @@
-// ✅ app/dokumentasi/page.tsx
 import type { Metadata } from "next";
 import Dokumentasi from "./Dokumentasi"; 
 

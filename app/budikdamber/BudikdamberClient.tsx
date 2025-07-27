@@ -84,10 +84,10 @@ const BudikdamberPage = () => {
       <Hero
         title="Budidaya Ikan Lele Sistem Budikdamber"
         subtitle="Solusi efisien budidaya ikan lele dalam ember untuk ketahanan pangan keluarga"
-        image="/gambar_stunting2.jpg"
+        image="/garas_lele.jpeg"
       />
 
-      <div className="max-w-6xl mx-auto px-4 py-8">
+      <div className="max-w-7xl mx-auto px-4 py-8">
         {/* Pengertian dan Latar Belakang */}
         <Section id="pengertian" title="Pengertian Budikdamber" icon={BookOpen}>
           <div className="grid md:grid-cols-2 gap-8">
@@ -135,25 +135,25 @@ const BudikdamberPage = () => {
               <div className="space-y-3 text-blue-700">
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                  <span className="text-sm">
+                  <span className="text-base">
                     Modal relatif kecil dan mudah dikelola
                   </span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                  <span className="text-sm">
+                  <span className="text-base">
                     Dapat dilakukan di area terbatas
                   </span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                  <span className="text-sm">
+                  <span className="text-base">
                     Hasil dapat diolah menjadi produk bernilai tinggi
                   </span>
                 </div>
                 <div className="flex items-start">
                   <CheckCircle className="h-5 w-5 text-green-500 mt-0.5 mr-3 flex-shrink-0" />
-                  <span className="text-sm">
+                  <span className="text-base">
                     Ramah lingkungan dan berkelanjutan
                   </span>
                 </div>
@@ -180,7 +180,7 @@ const BudikdamberPage = () => {
                   <h4 className="font-semibold text-orange-700 mb-2">
                     Wadah Utama:
                   </h4>
-                  <ul className="text-orange-600 text-sm space-y-1">
+                  <ul className="text-orange-600 text-base space-y-1">
                     <li>• Ember ukuran 80-100 liter</li>
                     <li>• Tutup ember (opsional)</li>
                   </ul>
@@ -190,7 +190,7 @@ const BudikdamberPage = () => {
                   <h4 className="font-semibold text-orange-700 mb-2">
                     Peralatan Pendukung:
                   </h4>
-                  <ul className="text-orange-600 text-sm space-y-1">
+                  <ul className="text-orange-600 text-base space-y-1">
                     <li>• Aerator mini atau pompa udara</li>
                     <li>• Selang aerator</li>
                     <li>• Batu aerasi</li>
@@ -202,7 +202,7 @@ const BudikdamberPage = () => {
                   <h4 className="font-semibold text-orange-700 mb-2">
                     Alat Monitoring:
                   </h4>
-                  <ul className="text-orange-600 text-sm space-y-1">
+                  <ul className="text-orange-600 text-base space-y-1">
                     <li>• Termometer air</li>
                     <li>• pH meter (opsional)</li>
                     <li>• Timbangan</li>
@@ -222,7 +222,7 @@ const BudikdamberPage = () => {
                   <h4 className="font-semibold text-green-700 mb-2">
                     Bibit Ikan:
                   </h4>
-                  <ul className="text-green-600 text-sm space-y-1">
+                  <ul className="text-green-600 text-base space-y-1">
                     <li>• Benih lele ukuran 5-7 cm</li>
                     <li>• Jumlah: 50-100 ekor per ember</li>
                     <li>• Pilih yang sehat dan aktif bergerak</li>
@@ -231,7 +231,7 @@ const BudikdamberPage = () => {
 
                 <div className="bg-white rounded-lg p-4 border border-green-100">
                   <h4 className="font-semibold text-green-700 mb-2">Pakan:</h4>
-                  <ul className="text-green-600 text-sm space-y-1">
+                  <ul className="text-green-600 text-base space-y-1">
                     <li>• Pelet ikan lele (protein 28-32%)</li>
                     <li>• Pakan alternatif: cacing, jentik nyamuk</li>
                     <li>• Dedak halus (untuk fermentasi)</li>
@@ -242,7 +242,7 @@ const BudikdamberPage = () => {
                   <h4 className="font-semibold text-green-700 mb-2">
                     Air dan Nutrisi:
                   </h4>
-                  <ul className="text-green-600 text-sm space-y-1">
+                  <ul className="text-green-600 text-base space-y-1">
                     <li>• Air bersih (tidak mengandung klorin)</li>
                     <li>• Probiotik ikan (opsional)</li>
                     <li>• Garam ikan untuk pengobatan</li>
@@ -276,7 +276,7 @@ const BudikdamberPage = () => {
                     <Leaf className="h-5 w-5 mr-2" />
                     Persiapan Kangkung
                   </h4>
-                  <ul className="text-emerald-600 text-sm space-y-2">
+                  <ul className="text-emerald-600 text-base space-y-2">
                     <li>• Pilih bibit kangkung yang segar</li>
                     <li>• Potong akar sepanjang 2-3 cm</li>
                     <li>• Rendam dalam air bersih 30 menit</li>
@@ -289,7 +289,7 @@ const BudikdamberPage = () => {
                     <Settings className="h-5 w-5 mr-2" />
                     Penanaman
                   </h4>
-                  <ul className="text-emerald-600 text-sm space-y-2">
+                  <ul className="text-emerald-600 text-base space-y-2">
                     <li>• Letakkan styrofoam di atas ember</li>
                     <li>• Buat lubang untuk kangkung</li>
                     <li>• Masukkan kangkung hingga akar terendam</li>
@@ -302,7 +302,7 @@ const BudikdamberPage = () => {
                     <Droplets className="h-5 w-5 mr-2" />
                     Perawatan
                   </h4>
-                  <ul className="text-emerald-600 text-sm space-y-2">
+                  <ul className="text-emerald-600 text-base space-y-2">
                     <li>• Pantau pertumbuhan kangkung</li>
                     <li>• Ganti air jika terlalu keruh</li>
                     <li>• Panen kangkung setelah 2-3 minggu</li>
@@ -337,7 +337,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-purple-800 mb-3">
                       Bahan Fermentasi:
                     </h4>
-                    <ul className="text-purple-600 text-sm space-y-2">
+                    <ul className="text-purple-600 text-base space-y-2">
                       <li className="flex items-center">
                         <div className="h-2 w-2 bg-purple-400 rounded-full mr-3"></div>
                         Dedak halus 5 kg
@@ -371,7 +371,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-purple-800 mb-3">
                       Cara Pembuatan:
                     </h4>
-                    <ol className="text-purple-600 text-sm space-y-2">
+                    <ol className="text-purple-600 text-base space-y-2">
                       <li className="flex items-start">
                         <span className="bg-purple-200 text-purple-800 rounded-full w-5 h-5 flex items-center justify-center text-xs mr-3 mt-0.5 flex-shrink-0">
                           1
@@ -432,9 +432,9 @@ const BudikdamberPage = () => {
                       <Clock className="h-8 w-8 text-blue-600" />
                     </div>
                     <h4 className="font-semibold text-blue-800">Pagi Hari</h4>
-                    <p className="text-blue-600 text-sm">06.00 - 07.00</p>
+                    <p className="text-blue-600 text-base">06.00 - 07.00</p>
                   </div>
-                  <ul className="text-blue-600 text-sm space-y-1">
+                  <ul className="text-blue-600 text-base space-y-1">
                     <li>• Beri pakan 3% dari bobot ikan</li>
                     <li>• Gunakan pakan fermentasi</li>
                     <li>• Cek kondisi air</li>
@@ -447,9 +447,9 @@ const BudikdamberPage = () => {
                       <Clock className="h-8 w-8 text-yellow-600" />
                     </div>
                     <h4 className="font-semibold text-blue-800">Siang Hari</h4>
-                    <p className="text-blue-600 text-sm">12.00 - 13.00</p>
+                    <p className="text-blue-600 text-base">12.00 - 13.00</p>
                   </div>
-                  <ul className="text-blue-600 text-sm space-y-1">
+                  <ul className="text-blue-600 text-base space-y-1">
                     <li>• Beri pakan pellet</li>
                     <li>• Jumlah sesuai kebutuhan</li>
                     <li>• Periksa aerator</li>
@@ -462,9 +462,9 @@ const BudikdamberPage = () => {
                       <Clock className="h-8 w-8 text-orange-600" />
                     </div>
                     <h4 className="font-semibold text-blue-800">Sore Hari</h4>
-                    <p className="text-blue-600 text-sm">17.00 - 18.00</p>
+                    <p className="text-blue-600 text-base">17.00 - 18.00</p>
                   </div>
-                  <ul className="text-blue-600 text-sm space-y-1">
+                  <ul className="text-blue-600 text-base space-y-1">
                     <li>• Beri pakan fermentasi</li>
                     <li>• Bersihkan sisa pakan</li>
                     <li>• Ganti air jika perlu</li>
@@ -489,7 +489,7 @@ const BudikdamberPage = () => {
                       <h5 className="font-medium text-green-800 mb-2">
                         Waktu Panen:
                       </h5>
-                      <ul className="text-green-600 text-sm space-y-1">
+                      <ul className="text-green-600 text-base space-y-1">
                         <li>• Umur 2-3 bulan pemeliharaan</li>
                         <li>• Berat ikan 150-200 gram/ekor</li>
                         <li>• Panen bertahap atau sekaligus</li>
@@ -499,7 +499,7 @@ const BudikdamberPage = () => {
                       <h5 className="font-medium text-green-800 mb-2">
                         Cara Panen:
                       </h5>
-                      <ul className="text-green-600 text-sm space-y-1">
+                      <ul className="text-green-600 text-base space-y-1">
                         <li>• Kurangi pemberian pakan 1 hari</li>
                         <li>• Gunakan jaring halus</li>
                         <li>• Pilah berdasarkan ukuran</li>
@@ -520,7 +520,7 @@ const BudikdamberPage = () => {
                           Air Keruh/Bau
                         </h5>
                       </div>
-                      <p className="text-red-600 text-sm">
+                      <p className="text-red-600 text-base">
                         Solusi: Kurangi pakan, ganti 30% air, tambah aerasi
                       </p>
                     </div>
@@ -531,7 +531,7 @@ const BudikdamberPage = () => {
                           Ikan Mati Mendadak
                         </h5>
                       </div>
-                      <p className="text-red-600 text-sm">
+                      <p className="text-red-600 text-base">
                         Solusi: Periksa kualitas air, suhu, dan kandungan
                         oksigen
                       </p>
@@ -543,7 +543,7 @@ const BudikdamberPage = () => {
                           Pertumbuhan Lambat
                         </h5>
                       </div>
-                      <p className="text-red-600 text-sm">
+                      <p className="text-red-600 text-base">
                         Solusi: Perbaiki kualitas pakan dan frekuensi pemberian
                       </p>
                     </div>
@@ -580,7 +580,7 @@ const BudikdamberPage = () => {
                     <Target className="h-6 w-6 mr-3" />
                     Misi
                   </h3>
-                  <ul className="text-purple-700 text-sm space-y-2">
+                  <ul className="text-purple-700 text-base space-y-2">
                     <li>
                       • Mempersiapkan mental dalam budidaya dan produksi ikan
                       lele berkualitas terbaik
@@ -618,7 +618,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-amber-800 mb-3">
                       Kemauan untuk Belajar
                     </h4>
-                    <ul className="text-amber-600 text-sm space-y-2">
+                    <ul className="text-amber-600 text-base space-y-2">
                       <li className="flex items-center">
                         <CheckCircle className="h-4 w-4 mr-2 text-green-500" />
                         Siap mencoba hal baru meskipun belum punya pengalaman
@@ -638,7 +638,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-amber-800 mb-3">
                       Kesabaran dalam Proses
                     </h4>
-                    <ul className="text-amber-600 text-sm space-y-2">
+                    <ul className="text-amber-600 text-base space-y-2">
                       <li className="flex items-center">
                         <Clock className="h-4 w-4 mr-2 text-blue-500" />
                         Menyadari bahwa merawat ikan butuh waktu
@@ -658,7 +658,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-amber-800 mb-3">
                       Mengelola Rasa Takut/Jijik
                     </h4>
-                    <ul className="text-amber-600 text-sm space-y-2">
+                    <ul className="text-amber-600 text-base space-y-2">
                       <li>• Tidak semua orang terbiasa memegang ikan</li>
                       <li>
                         • Perlu latihan agar tidak panik saat membersihkan ikan
@@ -675,7 +675,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-amber-800 mb-3">
                       Percaya Diri
                     </h4>
-                    <ul className="text-amber-600 text-sm space-y-2">
+                    <ul className="text-amber-600 text-base space-y-2">
                       <li className="flex items-center">
                         <Award className="h-4 w-4 mr-2 text-yellow-500" />
                         Yakin bahwa kegiatan dapat berhasil jika mengikuti
@@ -696,7 +696,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-amber-800 mb-3">
                       Komitmen dan Konsistensi
                     </h4>
-                    <ul className="text-amber-600 text-sm space-y-2">
+                    <ul className="text-amber-600 text-base space-y-2">
                       <li>
                         • Menjalankan kegiatan rutin seperti memberi pakan
                       </li>
@@ -711,7 +711,7 @@ const BudikdamberPage = () => {
                     <h4 className="font-semibold text-amber-800 mb-3">
                       Kecerdasan Emosional
                     </h4>
-                    <ul className="text-amber-600 text-sm space-y-2">
+                    <ul className="text-amber-600 text-base space-y-2">
                       <li>• Mengenali potensi diri</li>
                       <li>• Mampu mengelola emosi saat menghadapi tantangan</li>
                       <li>
@@ -743,7 +743,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Kejujuran dan Kepercayaan
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Menjaga kejujuran dan kepercayaan konsumen
                         </p>
                       </div>
@@ -754,7 +754,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Keamanan Produk
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Memastikan produk aman dikonsumsi, bebas kontaminasi,
                           dan higienis
                         </p>
@@ -766,7 +766,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Informasi Lengkap
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Menyediakan informasi yang jujur dan lengkap tentang
                           produk
                         </p>
@@ -778,7 +778,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Penanganan Keluhan
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Menyediakan mekanisme penanganan keluhan yang efektif
                           dan empatik
                         </p>
@@ -799,7 +799,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Pengelolaan Limbah
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Mengelola limbah budidaya secara efektif dan ramah
                           lingkungan
                         </p>
@@ -811,7 +811,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Efisiensi Sumber Daya
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Menggunakan air dan energi secara efisien
                         </p>
                       </div>
@@ -822,7 +822,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Keseimbangan Ekosistem
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Menjalankan praktik yang menjaga keseimbangan
                           ekosistem
                         </p>
@@ -834,7 +834,7 @@ const BudikdamberPage = () => {
                         <h5 className="font-medium text-teal-700">
                           Kesadaran Lingkungan
                         </h5>
-                        <p className="text-teal-600 text-sm">
+                        <p className="text-teal-600 text-base">
                           Meningkatkan kesadaran lingkungan di kalangan tim
                         </p>
                       </div>
@@ -862,7 +862,7 @@ const BudikdamberPage = () => {
                 <h4 className="font-semibold text-blue-800 mb-3">
                   Keberhasilan penerapan SOP bergantung pada:
                 </h4>
-                <div className="grid md:grid-cols-3 gap-4 text-sm">
+                <div className="grid md:grid-cols-3 gap-4 text-base">
                   <div className="flex items-center text-blue-600">
                     <Heart className="h-4 w-4 mr-2 text-red-500" />
                     Dedikasi dan kesadaran setiap individu

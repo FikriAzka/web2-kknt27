@@ -1,12 +1,11 @@
-// ✅ app/dokumentasi/page.tsx
 import type { Metadata } from "next";
-import PoslitkesClient from "./PoslitkesClient"; // 👈 File komponen client
+import BudikdamberClient from "./BudikdamberClient"; 
 
 export const metadata: Metadata = {
   title: "Budikdamber",
-  description: "Tentang Poslitkes",
+  description: "Tentang Budikdamber",
 };
 
-export default function DokumentasiPage() {
-  return <PoslitkesClient />;
+export default function Budikdamber() {
+  return <BudikdamberClient />;
 }

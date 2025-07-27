@@ -205,7 +205,7 @@ export default function HomeClient() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
             <h2 className="text-3xl font-bold text-gray-900 mb-4">
-              Lokasi Kegiatan
+              Lokasi Pelaksanaan
             </h2>
             <div className="w-24 h-1 bg-gradient-to-r from-blue-600 to-purple-600 mx-auto"></div>
           </div>
@@ -215,7 +215,7 @@ export default function HomeClient() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
               <div className="h-48 relative">
                 <iframe
-                  src="https://maps.google.com/maps?q=RW%203%20Tembalang&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=-7.056042,110.438210&z=17&output=embed"
                   width="100%"
                   height="100%"
                   className="absolute inset-0"
@@ -227,11 +227,12 @@ export default function HomeClient() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-green-800">
-                  RW3, Kelurahan Tembalang, Kecamatan Tembalang, Kota Semarang
+                  Balai RW 3, Kelurahan Tembalang, Kecamatan Tembalang, Kota
+                  Semarang
                 </h3>
                 <div className="mt-4 flex gap-2">
                   <a
-                    href="https://maps.app.goo.gl/HQt8k4pCZ6FKNEFK6"
+                    href="https://maps.app.goo.gl/wjFrm5v2kenvTQpRA"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 flex items-center gap-2"
@@ -247,7 +248,7 @@ export default function HomeClient() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
               <div className="h-48 relative">
                 <iframe
-                  src="https://maps.google.com/maps?q=RW%207%20Tembalang&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=-7.054629466270796,110.43677772416838&z=17&output=embed"
                   width="100%"
                   height="100%"
                   className="absolute inset-0"
@@ -259,11 +260,12 @@ export default function HomeClient() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-green-800">
-                  RW7, Kelurahan Tembalang, Kecamatan Tembalang, Kota Semarang
+                  Balai RW 7, Kelurahan Tembalang, Kecamatan Tembalang, Kota
+                  Semarang
                 </h3>
                 <div className="mt-4 flex gap-2">
                   <a
-                    href="https://maps.app.goo.gl/abc123"
+                    href="https://maps.app.goo.gl/iZF19y2dwonwPpjZ8?g_st=aw"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="bg-gradient-to-r from-blue-600 to-purple-600 text-white px-4 py-2 rounded-lg font-medium hover:from-blue-700 hover:to-purple-700 transition-all duration-200 flex items-center gap-2"
@@ -279,7 +281,7 @@ export default function HomeClient() {
             <div className="bg-white rounded-2xl shadow-lg overflow-hidden border border-gray-200">
               <div className="h-48 relative">
                 <iframe
-                  src="https://maps.google.com/maps?q=RW%208%20Tembalang&t=&z=15&ie=UTF8&iwloc=&output=embed"
+                  src="https://maps.google.com/maps?q=-7.043672,110.442512&z=17&output=embed"
                   width="100%"
                   height="100%"
                   className="absolute inset-0"
@@ -291,7 +293,8 @@ export default function HomeClient() {
               </div>
               <div className="p-6">
                 <h3 className="text-xl font-bold text-green-800">
-                  RW8, Kelurahan Tembalang, Kecamatan Tembalang, Kota Semarang
+                  Balai RW 8, Kelurahan Tembalang, Kecamatan Tembalang, Kota
+                  Semarang
                 </h3>
                 <div className="mt-4 flex gap-2">
                   <a
